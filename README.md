@@ -1,11 +1,11 @@
 # PSPredict
-prediction of phase separation proteins
+prediction of phase separation proteins  
 written by Tanlin Sun
 
 # how to prepare sequences
-Prepare sequences with its label separting by tab("Yes" means a PSP, "No" means not a PSP). If label was not known, add "Yes" or "No" at will.
-For example, prepare file like this:
-MAICTEAISPFALIFLAIFLAFVALFEAFEHKCNCBKHFHALFKHLAK  Yes
+Prepare sequences with its label separting by tab("Yes" means a PSP, "No" means not a PSP). If label was not known, add "Yes" or "No" at will.  
+For example, prepare file like this:  
+MAICTEAISPFALIFLAIFLAFVALFEAFEHKCNCBKHFHALFKHLAK  Yes  
 MAICTEAISPFALIFLAIFLAFVALF  Yes
 
 # how to prepare other file
