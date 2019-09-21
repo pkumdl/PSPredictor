@@ -13,3 +13,6 @@ In hyper.py, change "path" to the actual path in your working place, change "tes
 
 # predict
 python test_model.py
+
+# training samples
+pos_seq is the positive training samples for PSPredict training, neg_seq is the negative training samples for PSPredict training
