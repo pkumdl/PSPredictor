@@ -47,7 +47,6 @@ if __name__=='__main__':
 	file1=hp.test
 	file2=file1+'predict'
 	f=open(file2,'w')
-	tn=[]
 
 	data=pd.read_table(hp.code,header=None,sep=',')
 	st,scal=norm(data)
