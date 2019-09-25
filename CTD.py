@@ -1,44 +1,5 @@
-# -*- coding: utf-8 -*-
-'''
-#####################################################################################
-
-This module is used for computing the composition, transition and distribution 
-
-descriptors based on the different properties of AADs. The AADs with the same 
-
-properties is marked as the same number. You can get 147 descriptors for a given
-
-protein sequence. You can freely use and distribute it. If you hava  any problem, 
-
-you could contact with us timely!
-
-References:
-
-[1]: Inna Dubchak, Ilya Muchink, Stephen R.Holbrook and Sung-Hou Kim. Prediction 
-
-of protein folding class using global description of amino acid sequence. Proc.Natl.
-
-Acad.Sci.USA, 1995, 92, 8700-8704.
-
-[2]:Inna Dubchak, Ilya Muchink, Christopher Mayor, Igor Dralyuk and Sung-Hou Kim. 
-
-Recognition of a Protein Fold in the Context of the SCOP classification. Proteins: 
-
-Structure, Function and Genetics,1999,35,401-407.
-
-Authors: Dongsheng Cao and Yizeng Liang.
-
-Date: 2010.11.22
-
-Email: oriental-cds@163.com
-
-#####################################################################################
-'''
-
-
 import string, math, copy
 import AAComposition as AAC
-#from GetProteinFromUniprot import GetProteinSequenceFromTxt as gpst
 import numpy as np
 #from function_data import *
 AALetter=["A","R","N","D","C","E","Q","G","H","I","L","K","M","F","P","S","T","W","Y","V"]
