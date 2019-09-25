@@ -1,5 +1,5 @@
 import sys
-from CTD_zong_all import calculate
+from CTD import calculate
 import hyper as hp
 import numpy as np
 from sklearn import metrics,preprocessing
