@@ -10,8 +10,6 @@ from CTD import calculate
 import hyper as hp
 import numpy as np
 from sklearn import metrics,preprocessing
-from AAComposition import GetSequenceFromTxt
-from Autocorrelation import GetSequenceFromTxt1
 from random import shuffle
 import pandas as pd
 import re
@@ -45,11 +43,6 @@ def process(method,scale):
 	if method=='li':
 		code=calculate(seq)
 		data=scale.transform(code)
-	elif method=='TA':
-		code=GetSequenceFromTxt(seq)
-		data=scale.transform(code)
-	elif method =='AC':
-		code=GetSequenceFromTxt1(seq)
 	
 	elif method=='w2v':
 		pre=ol_gram(seq)
