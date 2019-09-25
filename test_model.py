@@ -1,12 +1,6 @@
-import sys
-
-
 from sklearn.externals import joblib
-
 from sklearn.metrics import classification_report,accuracy_score,f1_score,make_scorer
-
 import sys
-from CTD import calculate
 import hyper as hp
 import numpy as np
 from sklearn import metrics,preprocessing
@@ -40,11 +34,8 @@ def process(method,scale):
 	label1=data['label'].str.replace(pat,'0')	
 	label2=label1.str.replace(pat1,'1')
 	label3=label2.astype('int')
-	if method=='li':
-		code=calculate(seq)
-		data=scale.transform(code)
 	
-	elif method=='w2v':
+	if method=='w2v':
 		pre=ol_gram(seq)
 		code=embedding(pre,hla_weight)
 		data=scale.transform(code)
