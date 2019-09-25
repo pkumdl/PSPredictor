@@ -9,4 +9,4 @@ code=path+'w2v1oldnewnocode'
 
 method='w2v'
 
-weight='my_wordvec_model_trembl_size_200'
+weight='word2vec200'
