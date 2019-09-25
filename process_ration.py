@@ -1,10 +1,7 @@
 import sys
-from CTD import calculate
 import hyper as hp
 import numpy as np
 from sklearn import metrics,preprocessing
-from AAComposition1 import GetSequenceFromTxt
-from Autocorrelation3 import GetSequenceFromTxt1
 from random import shuffle
 import pandas as pd
 from embed1 import ol_gram,embedding,hla
