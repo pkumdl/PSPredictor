@@ -16,3 +16,7 @@ python test_model.py
 
 # training samples
 pos_seq is the positive training samples for PSPredict training, neg_seq is the negative training samples for PSPredict training
+
+# human genome scan samples
+Uniprot_accessions in human_scan_id are the most likely human PSPs scored by PSPredictor.  
+GO terms in human_scan_go are the annotations of those mostly likely human PSPs(annotated by DAVID). Some of the ids shared the same GO terms, therefore they were combined in one line.
